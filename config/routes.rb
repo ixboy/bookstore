@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get 'authors/index'
+  get 'authors/show'
+  get 'authors/new'
+  get 'authors/create'
+  get 'authors/update'
+  get 'authors/destroy'
+  get 'authors/edit'
   get 'categories/index'
   get 'categories/show'
   get 'categories/new'
