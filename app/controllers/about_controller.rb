@@ -1,5 +1,5 @@
 class AboutController < ApplicationController
   def index
-    @about_us = 'Welcome to Our page'
+    @page_title = ' About Us'
   end
 end
