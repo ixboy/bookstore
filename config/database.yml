@@ -5,8 +5,9 @@
 #   gem 'sqlite3'
 #
 default: &default
-  username: <%= Rails.application.credentials.db_username %>
-  password: <%= Rails.application.credentials.db_password %>
+  # username: <%= Rails.application.credentials.db_username %>
+  username: bookstore
+  password: 
   adapter: mysql2
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000

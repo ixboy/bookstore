@@ -2,12 +2,14 @@
   "name": "bookstore",
   "private": true,
   "dependencies": {
-    "@popperjs/core": "2.0.0-alpha.1",
+    "@popperjs/core": "^2.10.2",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
-    "@rails/webpacker": "5.4.2",
-    "bootstrap": "5.0.0-beta2",
+    "@rails/webpacker": "5.4.3",
+    "bootstrap": "^5.0.0-beta3",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
     "turbolinks": "^5.2.0",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
@@ -18,6 +20,6 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.20.1",
-    "webpack-dev-server": "^4.1.1"
+    "webpack-dev-server": "^3"
   }
 }
